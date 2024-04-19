@@ -35,7 +35,7 @@ body{
   padding: 5px;
   font-size: 1rem;
   background-color: hsl(47, 88%, 63%);
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 span{
@@ -56,6 +56,7 @@ p{
   font-size: 0.9rem;
 }
 .bottom ul{
+  display: flex;
   list-style: none;
   align-items: center;
 }
