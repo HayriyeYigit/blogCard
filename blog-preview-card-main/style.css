@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Figtree",sans-serif;
+}
+
+body{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(47, 83%, 61%);
+}
+/* Blog Card*/
+.card{
+  width: 350px;
+  height: 480px;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem  black;
+  border: solid black 2px;
+}
+
+.card .card-img{
+ width: 100%;
+ padding: 1rem;
+ border-radius: 2rem;
+}
+
+.card .learning{
+  text-align: center;
+  width: 90px;
+  margin: 0.9rem;
+  padding: 5px;
+  font-size: 1rem;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 2px;
+}
+
+span{
+  font-size: 0.9rem;
+  margin: 1rem;
+}
+
+.card h3{
+  margin: 1rem;
+  font-weight: 800;
+}
+
+p{
+  margin-left: 1rem;
+  font-weight: 500;
+  color: grey;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+.bottom ul{
+  list-style: none;
+  align-items: center;
+}
+.bottom .profile-img{
+  width: 30px;
+  margin-left: 1rem;
+}
+
+.bottom span{
+font-size: 1rem;
+font-weight: bold;
+}
+
+
+.card .link-text:hover{
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+  
+
+
